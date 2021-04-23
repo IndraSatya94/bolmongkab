@@ -3079,3 +3079,28 @@ position: relative;
     transform: scale(1.12);
   }
 }
+
+/* sosial media bagian tengah landing page */
+.social-media {
+  text-align: center;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-color: #063A69;
+}
+.social-media i {
+  font-size: 30px;
+  color: #063A69;
+  margin: 15px;
+}
+.social-media i:hover {
+  font-size: 40px;
+  color: #8b2623;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: 0.3s;
+}
