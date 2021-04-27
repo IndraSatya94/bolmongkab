@@ -203,6 +203,27 @@ section {
   padding-bottom: 40px;
 }
 
+.section-titlebiru h2 {
+  /* font-size: 14px;
+  font-weight: 500; */
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  text-align: center;
+}
+.section-titlebiru h2::after {
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 4px 10px;
+}
+
 .section-title h2 {
   /* font-size: 14px;
   font-weight: 500; */
@@ -213,7 +234,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #063A69;
   text-align: center;
 }
 
@@ -1884,21 +1905,35 @@ section {
   text-align: center;
   transition: 0.3s;
   border-radius: 5%;
+  align-items: center;
+}
+.testimonials .testimonial-item:hover {
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 40px 30px;
+  box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5%;
+  width: 50%;
+  align-items: center;
 }
 
-.testimonials .testimonial-item:hover {
+.testimonials .testimonial-item img:hover {
 
   border-radius: 5%;
   box-shadow: #111;
+  width: 100px;
 }
+.testimonials .testimonial-item img {
 
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
+  border-radius: 5%;
+  box-shadow: #111;
+  width: 90px;
+  transition: all .3s ease;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1913,6 +1948,12 @@ section {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
+}
+.testimonials .testimonial-item h3:hover {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #063A69;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1943,9 +1984,9 @@ section {
   background-color: #4154f1;
 }
 
-.testimonials .swiper-slide {
+/* .testimonials .swiper-slide {
   opacity: .3;
-}
+} */
 
 @media (max-width: 1199px) {
   .testimonials .swiper-slide-active {
@@ -1959,9 +2000,11 @@ section {
 @media (min-width: 1200px) {
   .testimonials .swiper-slide-next {
     opacity: 1;
-    transform: scale(1.12);
+    /* transform: scale(1.12); */
   }
 }
+
+
 
 /* sosial media bagian tengah landing page */
 .social-media {
@@ -1986,7 +2029,6 @@ section {
   margin-bottom: 0px;
   margin-left: 15px;
   margin-right: 15px;
-  transition: 0.3s;
 }
 
 /*--------------------------------------------------------------
