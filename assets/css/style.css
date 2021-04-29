@@ -1300,10 +1300,10 @@ section {
 
 
 /* bolmongkab */
-.pelayanan {
+/* .pelayanan {
   margin-left: 5%;
   margin-right: 5%;
-}
+} */
 
 .pelayanan .content{
   position: relative;
@@ -1995,12 +1995,12 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# pelayanan
 --------------------------------------------------------------*/
-.testimonials {
+.pelayanan {
   background:#063A69;
 }
-.testimonials .testimonial-item {
+.pelayanan .layanan-item {
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
@@ -2014,18 +2014,18 @@ section {
   align-items: center;
   height: 150px;
 }
-.testimonials .testimonial-item:hover {
+.pelayanan .layanan-item:hover {
   transform: scale(1.1);
   border-radius: 5%;
 }
 
-/* .testimonials .testimonial-item img:hover {
+/* .pelayanan .layanan-item img:hover {
 
   border-radius: 5%;
   box-shadow: #111;
   width: 100px;
 } */
-.testimonials .testimonial-item img {
+.pelayanan .layanan-item img {
 
   border-radius: 5%;
   box-shadow: #111;
@@ -2033,43 +2033,43 @@ section {
   transition: all .3s ease;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.pelayanan .layanan-item .layanan-img {
   width: 90px;
   /* border-radius: 50%; */
   border: 4px solid #fff;
   margin: 0 auto;
 }
 
-.testimonials .testimonial-item h3 {
+.pelayanan .layanan-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
-.testimonials .testimonial-item h3:hover {
+.pelayanan .layanan-item h3:hover {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #063A69;
 }
 
-.testimonials .testimonial-item h4 {
+.pelayanan .layanan-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
 }
 
-.testimonials .testimonial-item p {
+.pelayanan .layanan-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
 }
 
-.testimonials .swiper-pagination {
+.pelayanan .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.pelayanan .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -2077,25 +2077,25 @@ section {
   border: 1px solid #4154f1;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.pelayanan .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #4154f1;
 }
 
-/* .testimonials .swiper-slide {
+/* .pelayanan .swiper-slide {
   opacity: .3;
 } */
 
 @media (max-width: 1199px) {
-  .testimonials .swiper-slide-active {
+  .pelayanan .swiper-slide-active {
     opacity: 1;
   }
-  .testimonials .swiper-pagination {
+  .pelayanan .swiper-pagination {
     margin-top: 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .testimonials .swiper-slide-next {
+  .pelayanan .swiper-slide-next {
     opacity: 1;
     /* transform: scale(1.12); */
   }

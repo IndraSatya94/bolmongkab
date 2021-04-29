@@ -159,9 +159,9 @@
   });
 
   /**
-   * Testimonials slider
+   * layanan slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.pelayanan-slider', {
     speed: 600,
     loop: true,
     autoplay: {
