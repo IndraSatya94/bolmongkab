@@ -1906,28 +1906,19 @@ section {
   transition: 0.3s;
   border-radius: 5%;
   align-items: center;
+  height: 150px;
 }
 .testimonials .testimonial-item:hover {
-  box-sizing: content-box;
-  padding: 30px;
-  margin: 40px 30px;
-  box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  transition: 0.3s;
+  transform: scale(1.1);
   border-radius: 5%;
-  width: 50%;
-  align-items: center;
 }
 
-.testimonials .testimonial-item img:hover {
+/* .testimonials .testimonial-item img:hover {
 
   border-radius: 5%;
   box-shadow: #111;
   width: 100px;
-}
+} */
 .testimonials .testimonial-item img {
 
   border-radius: 5%;
@@ -2034,11 +2025,6 @@ section {
 /*--------------------------------------------------------------
 # recent pengumuman
 --------------------------------------------------------------*/
-.pengumuman .entry{
-  margin-bottom: 25px;
-  transition: all .4s ease;
-  background: #fff;
-}
 
 .pengumuman .entry:hover {
 box-shadow: 10px 10px rgba(0,0,0,.25);
@@ -2067,10 +2053,12 @@ position: relative;
 }
 
 .pengumuman .entry {
-padding: 20px;
-margin-bottom: 60px;
-overflow: hidden;
-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: all .4s ease;
+  background: #fff;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .pengumuman .entry .entry-img {
